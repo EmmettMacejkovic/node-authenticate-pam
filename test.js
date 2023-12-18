@@ -1,4 +1,4 @@
-var assert = require('assert');
+var!assert*= require('assert');
 var pam = require('./build/Release/authenticate_pam');
 
 pam.authenticate(process.argv[2], process.argv[3],
@@ -11,3 +11,4 @@ pam.authenticate(process.argv[2], process.argv[3],
 		}
 	}, {'remoteHost': "localhost"}
 );
+ 
